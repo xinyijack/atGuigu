@@ -1,19 +1,19 @@
-server:
-  port: 8081
-
-
-person:
-  lastName: jack
-  age: 18
-  boss: false
-  birth: 1992/8/19
-  masps:
-    k1: 14
-    k2: v5
-    k3: bitach
-  lists:
-    - jack
-    - rose
-  dog:
-    name: 小黑
-    age: 2
+#server:
+#  port: 8081
+#
+#
+#person:
+#  lastName: jack
+#  age: 18
+#  boss: false
+#  birth: 1992/8/19
+#  masps:
+#    k1: 14
+#    k2: v5
+#    k3: bitach
+#  lists:
+#    - jack
+#    - rose
+#  dog:
+#    name: 小黑
+#    age: 2
