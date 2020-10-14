@@ -26,16 +26,17 @@ import java.util.Map;
  */
 @Component
 @ConfigurationProperties(prefix = "person")
-@Validated
+//@Validated
 public class Person {
     //@Value("${person.last-name}")
-    @Email
+    //@Email
     private String lastName;
     //@Value("#{11*2}")
     private Integer age;
     //@Value("true")
     private Boolean boss;
     private Date birth;
+    //@Value("${person.maps}")
     private Map<String,Object> maps;
     private List<Object> lists;
     private Dog dog;
